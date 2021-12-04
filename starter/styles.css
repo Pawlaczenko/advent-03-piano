@@ -1,0 +1,20 @@
+body {
+  background: #37B2C3;
+}
+
+.white-keys {
+ fill: white;
+}
+
+.white-keys:hover {
+  fill: #ffd200;
+}
+
+.black-keys {
+  fill: black;
+}
+
+.black-keys:hover {
+  fill: #f40082;  
+}
+
