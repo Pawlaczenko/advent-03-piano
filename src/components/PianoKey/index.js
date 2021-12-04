@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 const PianoKey = ({ path, id }) => {
-    const pianoSound = `/audio/${id}.mp3`;
+    const pianoSound = `./audio/${id}.mp3`;
 
     const playSound = () => {
         let s = new Audio(pianoSound);
